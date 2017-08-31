@@ -1,0 +1,14 @@
+*.swp
+*.aux
+*.log
+*.toc
+auto/
+publish/epub/
+publish/mobi/
+publish/pdf/
+main.pdf
+cover_back.pdf
+cover_spine.pdf
+cover_spine_east.pdf
+cover_front.pdf
+cover.pdf

@@ -1,0 +1,77 @@
+\documentclass[
+  final,
+  pagePreset=largepage,
+  babelLanguage=italian,
+  %webversion,
+]{anecdote}
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{L'Ascolto Interiore}
+\subtitle{Meditazione sul Suono del Silenzio}
+\author{Ajahn Amaro}
+\publisher{Edizioni Santacittarama}
+\date{2017-08-30}
+\editionInfo{\textit{Prima edizione}, 5.000 copie, stampate in Malesia, 2018}% TODO review edition info
+\ISBN{000-000-0000-00-0}% TODO add ISBN
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+% \hyphenation{}
+
+\begin{document}
+
+\frontmatter
+
+\ifwebversion
+\webcover{%
+\includegraphics[height=\paperheight]{./webcover.jpg}%
+}
+\fi
+
+\input{./manuscript/tex/verse.tex}
+
+\input{./manuscript/tex/titlepage.tex}
+
+% TODO
+\input{./manuscript/tex/copyright.tex}
+
+\input{./manuscript/tex/dedication.tex}
+
+\chapterstyle{oneline-toc}
+
+\cleartorecto
+\tableofcontents*
+
+\chapterstyle{oneline}
+\aliaspagestyle{chapter}{empty}
+
+\mainmatter
+
+\aliaspagestyle{chapter}{topcorner}
+
+\input{./manuscript/tex/lascolto-interiore.tex}
+
+\input{./manuscript/tex/domande.tex}
+
+\input{./manuscript/tex/conclusione.tex}
+
+\appendix
+
+\input{./manuscript/tex/citazioni.tex}
+
+\input{./manuscript/tex/references.tex}
+
+\backmatter
+
+\input{./manuscript/tex/sullautore.tex}
+
+% TODO
+\input{./manuscript/tex/copyright-details.tex}
+
+\end{document}
