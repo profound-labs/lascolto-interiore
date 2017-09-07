@@ -27,7 +27,7 @@ Cover: matt lamination
 
 **1st edition, 2018**
 
-paperback: `000-000-0000-00-0`
+paperback: `978-1-78432-084-3`
 
 electronic: `978-1-78432-083-6`
 

@@ -1296,10 +1296,12 @@ philo-sophical munindo amaravati thai-land}
   \settrims{0pt}{0pt}
 \fi
 
-\settypeblocksize{259pt}{279pt}{*}%
-\setlrmargins{*}{*}{1.125}% major 2nd
-\setulmargins{14mm}{*}{*}%
+\settypeblocksize{259pt}{279pt}{*}
+\setlrmargins{*}{*}{1.125}
+\setulmargins{14mm}{*}{*}
 \setheaderspaces{*}{4mm}{*}
+
+\setlength{\footskip}{15pt}
 
 % This will also typeout values in pt (default)
 \checkandfixthelayout
@@ -1315,7 +1317,7 @@ philo-sophical munindo amaravati thai-land}
 % Spine and edge margins: 49.45374pt and 55.65846pt
 % Upper and lower margins: 39.83385pt and 32.1991pt
 % Headheight and headsep: 13.6pt and 11.38109pt
-% Footskip: 27.46295pt
+% Footskip: 15pt
 % Columnsep and columnseprule: 10pt and 0pt
 % Marginparsep and marginparwidth: 7pt and 41.65846pt
 % Sidecapsep and sidecapwidth: 7pt and 111pt
@@ -1335,7 +1337,7 @@ philo-sophical munindo amaravati thai-land}
 % Spine and edge margins: 17.38078mm and 19.56148mm
 % Upper and lower margins: 13.99982mm and 11.31654mm
 % Headheight and headsep: 4.77979mm and 3.99994mm
-% Footskip: 9.65201mm
+% Footskip: 5.27184mm
 % Columnsep and columnseprule: 3.51456mm and 0mm
 % Marginparsep and marginparwidth: 2.46019mm and 14.6411mm
 % Sidecapsep and sidecapwidth: 2.46019mm and 39.01158mm
