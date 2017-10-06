@@ -32,6 +32,27 @@ cover-all:
 	make cover-spine
 	make cover
 
+epub:
+	./helpers/generate_epub.sh
+
+epub-validate:
+	EPUBCHECK=~/bin/epubcheck asciidoctor-epub3 -D output -a ebook-validate main.adoc
+
+mobi:
+	./helpers/generate_mobi.sh
+
+preview:
+	latexmk -pvc $(FILE).tex
+
+chapters-to-asciidoc:
+	./helpers/chapters_to_asciidoc.sh
+
+chapters-to-docx:
+	./helpers/chapters_to_docx.sh
+
+stylus-watch:
+	stylus -w ./vendor/asciidoctor-epub3/assets/styles/*.styl -o ./vendor/asciidoctor-epub3/data/styles/
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 
