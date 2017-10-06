@@ -1,0 +1,25 @@
+[#titlepage]
+= {booktitle}
+
+[#titlepage-description]
+== {description} 
+
+[role=titlepage-author]
+{author}
+
+<<<
+
+[quote]
+____
+Un canto di Talità chiaro e luminoso, +
+l'infinita pace interiore della luce +
+la cui presenza incessante romba +
+oceanica alle sue sponde.
+____
+
+<<<
+
+Questo volumetto è dedicato con profonda gratitudine a Luang Por
+Sumedho, il quale ha rivelato il Suono del Silenzio e la Realtà
+Incondizionata che il Suono così riccamente rappresenta.
+

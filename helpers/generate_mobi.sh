@@ -8,7 +8,7 @@
 # (opt) 5. convert to MOBI 6 with ebook-convert (calibre)
 
 MAIN_ADOC="main.adoc"
-NAME="prophecy"
+NAME="lascolto-interiore"
 
 # no trailing slash
 OUT_DIR=output

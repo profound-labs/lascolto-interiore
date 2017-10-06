@@ -1,0 +1,43 @@
+= L'Ascolto Interiore
+:booktitle: {doctitle}
+:description: Meditazione sul Suono del Silenzio
+:author: Ajahn Amaro
+:creator: {author}
+:version: v1.0
+:revdate: 2017-10-06
+:doctype: book
+:lang: it
+:keywords: Ajahn Amaro, Dhamma, Buddhism, RELIGION / Buddhism / Theravada
+:copyright: CC-BY-NC-ND 4.0
+:isbn: 978-1-78432-083-6
+:identifier: isbn:{isbn}
+:source: https://forestsangha.org
+:imagesdir: assets/photos/92dpi-ebook-sRGB
+:includes: manuscript/asciidoc
+:front-cover-image: image:desktop-cover.jpg[Front Cover,800,711]
+:toc: left
+:toc-title: Indice
+:toclevels: 0
+
+include::{includes}/titlepage.adoc[]
+
+// // TODO
+// include::{includes}/lascolto-interiore.adoc[]
+// 
+// // TODO
+// include::{includes}/domande.adoc[]
+// 
+// // TODO
+// include::{includes}/conclusione.adoc[]
+// 
+// // TODO
+// include::{includes}/citazioni.adoc[]
+// 
+// // TODO
+// include::{includes}/references.adoc[]
+// 
+// // TODO
+// include::{includes}/sullautore.adoc[]
+
+include::{includes}/copyright.adoc[]
+

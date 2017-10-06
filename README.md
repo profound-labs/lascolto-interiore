@@ -33,9 +33,14 @@ electronic: `978-1-78432-083-6`
 
 ## Software
 
-Mainmatter: LaTeX
-
 Cover: InDesign
 
-Ebooks: [Prophecy](https://github.com/profound-labs/prophecy)
+Produced with [LaTeX], [Pandoc] and [Asciidoctor].
 
+[prophecy-template]: https://github.com/profound-labs/prophecy-template
+
+[LaTeX]: http://latex-project.org/
+
+[Pandoc]: http://pandoc.org/
+
+[Asciidoctor]: http://asciidoctor.org/
