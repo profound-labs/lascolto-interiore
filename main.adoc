@@ -21,23 +21,17 @@
 
 include::{includes}/titlepage.adoc[]
 
-// // TODO
-// include::{includes}/lascolto-interiore.adoc[]
-// 
-// // TODO
-// include::{includes}/domande.adoc[]
-// 
-// // TODO
-// include::{includes}/conclusione.adoc[]
-// 
-// // TODO
-// include::{includes}/citazioni.adoc[]
-// 
-// // TODO
-// include::{includes}/references.adoc[]
-// 
-// // TODO
-// include::{includes}/sullautore.adoc[]
+include::{includes}/lascolto-interiore.adoc[]
+
+include::{includes}/domande.adoc[]
+
+include::{includes}/conclusione.adoc[]
+
+include::{includes}/citazioni.adoc[]
+
+include::{includes}/bibliografia.adoc[]
+
+include::{includes}/sullautore.adoc[]
 
 include::{includes}/copyright.adoc[]
 

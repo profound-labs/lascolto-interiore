@@ -7,6 +7,8 @@
 [role=titlepage-author]
 {author}
 
+image::abm-pubs-logo.png[role=titlepage-pubs-logo]
+
 <<<
 
 [quote]
