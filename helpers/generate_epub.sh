@@ -57,6 +57,14 @@ mv tmp "$build_dir/OEBPS/nav.xhtml"
 # nav at the bottom
 sed -i 's/<\/spine>/<itemref idref="nav" linear="no"\/>\n&/' "$build_dir/OEBPS/package.opf"
 
+# fix double footnoteref id
+
+# https://stackoverflow.com/questions/27589325/how-to-find-and-replace-nth-occurence-of-word-in-a-sentence-using-python-regular
+
+perl -0777 -pi -e "s/((?:(?!\"noteref-2\").)*\"noteref-2\"(?:(?!\"noteref-2\").)*)\"noteref-2\"/\$1\"noteref-90\"/s" "$build_dir/OEBPS/domande-frequenti.xhtml"
+
+perl -0777 -pi -e "s/((?:(?!\"noteref-3\").)*\"noteref-3\"(?:(?!\"noteref-3\").)*)\"noteref-3\"/\$1\"noteref-91\"/s" "$build_dir/OEBPS/domande-frequenti.xhtml"
+
 # === 3. zip back to EPUB ===
 
 { cd "$build_dir" \
