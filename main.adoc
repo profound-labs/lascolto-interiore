@@ -7,11 +7,14 @@
 :revdate: 2017-10-06
 :doctype: book
 :lang: it
+:pubs-logo: abm-pubs-logo.png
+:publisher: Amaravati Publications
+:publisher-website: www.amaravati.org
+:source: https://forestsangha.org
 :keywords: Ajahn Amaro, Dhamma, Buddhism, RELIGION / Buddhism / Theravada
 :copyright: CC-BY-NC-ND 4.0
 :isbn: 978-1-78432-083-6
 :identifier: isbn:{isbn}
-:source: https://forestsangha.org
 :imagesdir: assets/photos/92dpi-ebook-sRGB
 :includes: manuscript/asciidoc
 :front-cover-image: image:desktop-cover.jpg[Front Cover,800,711]

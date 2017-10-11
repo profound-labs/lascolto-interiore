@@ -7,7 +7,7 @@
 [role=titlepage-author]
 {author}
 
-image::abm-pubs-logo.png[role=titlepage-pubs-logo]
+image::{pubs-logo}[role=titlepage-pubs-logo]
 
 <<<
 
