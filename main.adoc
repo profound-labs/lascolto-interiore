@@ -4,11 +4,11 @@
 :author: Ajahn Amaro
 :creator: {author}
 :version: v1.0
-:revdate: 2017-10-06
+:revdate: 2017-10-14
 :doctype: book
 :lang: it
 :pubs-logo: abm-pubs-logo.png
-:publisher: Amaravati Publications
+:publisher-name: Amaravati Publications
 :publisher-website: www.amaravati.org
 :source: https://forestsangha.org
 :keywords: Ajahn Amaro, Dhamma, Buddhism, RELIGION / Buddhism / Theravada
